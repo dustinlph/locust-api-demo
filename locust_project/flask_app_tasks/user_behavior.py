@@ -1,5 +1,5 @@
 from locust import task, TaskSet
-from locust_tasks.base import BaseBehavior
+from flask_app_tasks.base import BaseBehavior
 
 
 class NormalUserBehavior(TaskSet, BaseBehavior):
